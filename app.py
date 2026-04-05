@@ -21,7 +21,7 @@ def preprocess(text):
 
 # UI
 st.title("📰 Fake News Detection System")
-st.info("Note: This is a beginner-level machine learning model developed for learning purposes. Predictions may not always be accurate.")
+st.info("Note: This is a beginner-level machine learning model developed for learning purposes. Predictions may not always be accurate (don't judge).")
 input_text = st.text_area("Enter News Text")
 
 if st.button("Predict"):
